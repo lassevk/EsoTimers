@@ -1,0 +1,17 @@
+﻿@page "/{AuthId:guid}"
+@using Radzen.Blazor
+@using Radzen
+@if (_characters != null)
+{
+    <RadzenStack Orientation="Orientation.Horizontal">
+        @foreach (var character in _characters)
+        {
+            <p>Outside: @character.Name</p>
+            <CharacterComponent CharacterId="@character.Id" />
+        }
+    </RadzenStack>
+}
+else
+{
+    <p>Loading...</p>
+}

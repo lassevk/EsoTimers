@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsoTimers", "EsoTimers\EsoTimers.csproj", "{FB7EEE75-0E01-4152-B153-DEA38F82F2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsoTimers.Data", "EsoTimers.Data\EsoTimers.Data.csproj", "{A1D2B326-F202-4CCD-93DC-56FDCD5F966F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB7EEE75-0E01-4152-B153-DEA38F82F2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7EEE75-0E01-4152-B153-DEA38F82F2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7EEE75-0E01-4152-B153-DEA38F82F2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7EEE75-0E01-4152-B153-DEA38F82F2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D2B326-F202-4CCD-93DC-56FDCD5F966F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D2B326-F202-4CCD-93DC-56FDCD5F966F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D2B326-F202-4CCD-93DC-56FDCD5F966F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D2B326-F202-4CCD-93DC-56FDCD5F966F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
